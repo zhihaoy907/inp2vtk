@@ -127,7 +127,7 @@ def write_to_vtk(f_vtk, nodes, elements, element_types, temperatures):
         f_vtk.write(f"{temp}\n")
 
 def main():
-    inp_fname = r"QuadLobe_Fuel_job.inp"
+    inp_fname = r"input.inp"
     vtk_fname = "output.vtk"
 
     encoding = detect_encoding(inp_fname)
